@@ -1,0 +1,73 @@
+body{
+    border: 1px solid rgb(151, 213, 248);
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    max-width: 1024px;
+    margin: 0px auto;
+    --color-fondo-header: #D1E3EE;
+}
+header{
+    background:var(--color-fondo-header);
+}
+#logo{
+    margin-top: -777px;
+}
+header nav{
+    background: #026DC6;
+    padding: 10px 0px;
+    display: flex;
+    width: 99%;
+    margin: 0px auto;
+    border-radius: 5px;
+}
+header nav ul li{
+    margin: 0px 20px;
+    color: white;
+    list-style: none;
+    display: inline-block;
+}
+header nav form{
+    margin-top: -3px;
+}
+header nav form input{
+    border-radius: 5px;
+}
+header nav form input[type="submit"]{
+    background-color: #66cc33;
+    color: white;
+    border: none;
+}
+
+#seccion01{
+    border-top: 15px;
+}
+#seccion01 article{
+    text-align: center;
+}
+#seccion01 article img{
+    width: 98%;
+    margin: 0px auto;
+}
+#lista{
+    color: rgb(255, 255, 255);
+    
+    padding: 0px;
+    margin:0px;
+    display: flex;
+}
+
+#textfield{
+    padding: 5px;
+    border: none;
+    
+    outline: none;
+}
+#btn_buscar{
+    
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
